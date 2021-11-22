@@ -1,0 +1,7 @@
+.place__discription_text{
+  max-width:  484px;
+  margin: 16px 0 0 0;
+}
+.place__discription_text:first-child{
+  margin: 0;
+}
