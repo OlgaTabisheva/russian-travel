@@ -1,0 +1,15 @@
+.footer__column_content_info{
+  display: flex;
+  text-decoration: none;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 92px 0 24px 0;
+}
+
+@media screen and (max-width:768px){
+  
+  .footer__column_content_info{
+    flex-direction: column;
+  }
+}

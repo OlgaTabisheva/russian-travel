@@ -1,0 +1,9 @@
+.place__link{
+  margin: 0;
+  align-self:end;
+}
+
+.place_link:hover{
+  opacity: 0.3;
+  transition: .5s;
+}

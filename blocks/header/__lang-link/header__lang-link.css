@@ -1,0 +1,6 @@
+.header__lang-link {
+  display: flex;
+  color: white;
+  list-style: none;
+  font-family: "Inter"; 
+}

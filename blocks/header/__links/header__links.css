@@ -1,0 +1,19 @@
+.header__links {
+  color: white;
+  margin: 46px 48px 16px 0;
+}
+
+.header__links:first-child {
+  margin-right: 16px;
+  }
+
+.header__links_active{
+  text-decoration: underline;
+}
+
+@media screen and (max-width:768px){
+
+  .header__links {
+    margin: 0;
+  }
+}
