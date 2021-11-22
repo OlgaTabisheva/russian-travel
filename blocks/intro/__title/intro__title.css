@@ -10,5 +10,8 @@
   .intro__title{
     line-height: 35px;
     font-size: 32px;
+    max-width: 288px;
+    max-height: 70px;
+    margin-top: 64px;
   }
 }
