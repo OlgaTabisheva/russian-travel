@@ -7,9 +7,7 @@
   margin-right: 16px;
   }
 
-.header__links_active{
-  text-decoration: underline;
-}
+
 
 @media screen and (max-width:768px){
 
