@@ -2,13 +2,31 @@
   color: white;
   font-family: "Inter";
   max-width: 690px;
-  margin: 0 70px 0;
+  max-height: 429px;
+  margin: 0 0 0 148px;
+  
+}
+@media screen and (max-width:1240px){
+ 
+  .intro{
+    margin: 0 0 0 48px;
+  }
+}
+
+@media screen and (max-width:1024px){
+
+  .intro{
+    max-width: 720px;
+    max-height: 429px;
+    margin: 0 0 0 24px;
+  }
 }
 
 @media screen and (max-width:768px){
   .intro{
     max-width: 288px;
     max-height: 754px;
-    margin: 0 16px 0;
+    margin: 0 0 0 16px;
   }
 }
+
