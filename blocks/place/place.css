@@ -1,30 +1,27 @@
-.place{
+.place {
   color: white;
-  font-family: "Inter";
+  font-family: "Inter",'Helvetica Neue', Arial, sans-serif;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   align-content: flex-start;
   align-items: stretch;
   justify-items: stretch;
   gap: 48px 5px;
   max-width: 984px;
-  max-height: 660px;
   margin: 92px 0 0 0;
 }
 
-@media screen and (max-width:1024px){
-  .place{
+@media screen and (max-width:1024px) {
+  .place {
     max-width: 720px;
-    max-height: 2800px;
   }
 }
 
-@media screen and (max-width:768px){
-  
-  .place{
-  max-width: 320px;
-  max-height: 5177px;
-  grid-template-columns: 1fr;
-  margin: 50px 0px 0 0;
+@media screen and (max-width:768px) {
+
+  .place {
+    max-width: 320px;
+    grid-template-columns: 1fr;
+    margin: 50px 0px 0 0;
   }
 }

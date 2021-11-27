@@ -1,17 +1,24 @@
 .header__links {
   color: white;
-  margin: 46px 48px 16px 0;
+  margin: 46px 0 16px 0;
+  text-decoration: none;
+  font-family: "Inter",'Helvetica Neue', Arial, sans-serif;
 }
 
 .header__links:first-child {
   margin-right: 16px;
-  }
+}
+
+.header__links:hover {
+  opacity: 80%;
+}
 
 
-
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) {
 
   .header__links {
     margin: 0;
+    padding: 0;
   }
+  
 }

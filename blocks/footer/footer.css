@@ -1,13 +1,33 @@
-.footer{
+.footer {
   background-color: #2A2C2F;
   padding: 0 48px;
-  font-family: "Inter";
+  font-family: "Inter",'Helvetica Neue', Arial, sans-serif;
+  max-width: 1184px;
+  display: grid;
+  align-self: center;
 }
 
-@media screen and (max-width:768px){
-  
+
+@media screen and (max-width:1240px) {
+
+  .footer {
+      max-width: 928px;  
+  }
+
+}
+
+@media screen and (max-width:1024px) {
+
   .footer{
+    max-width: 720px;
+}
+}
+
+@media screen and (max-width:768px) {
+
+  .footer {
     margin: 0;
     padding: 0;
+    max-width: 186px;
   }
 }

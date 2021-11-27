@@ -1,5 +1,4 @@
-
-.footer__column-link{
+.footer__column-link {
   text-decoration: none;
   color: white;
   padding: 0 8px;
@@ -8,23 +7,20 @@
 }
 
 .footer__column-link:first-child {
-padding-left: 0;
+  padding-left: 0;
 }
 
-.footer__column-link:hover{
-  opacity: 0.3;
-  transition: .5s;
-}
 
-@media screen and (max-width:768px){
-  
-  .footer__column-link{
+@media screen and (max-width:768px) {
+
+  .footer__column-link {
     line-height: 24px;
     font-size: 24px;
     padding: 16px 16px 16px 16px;
     margin: 0;
   }
+
   .footer__column-link:first-child {
     padding-left: 16px;
-    }
+  }
 }

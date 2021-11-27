@@ -1,29 +1,30 @@
 .lead__caption {
-  position:relative;
-  right: 420px;
-  margin: 0;
-  line-height:14px;
+  margin: 8px 0 0 0;
+  line-height: 14px;
   font-size: 10px;
   letter-spacing: 1.5px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-start;
 }
-
-@media screen and (max-width:1240px){
+/*
+@media screen and (max-width:1240px) {
 
   .lead__caption {
-    right: 390px;
+    
   }
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1024px) {
 
   .lead__caption {
-    right: 310px;
+    
   }
 }
 
-@media screen and (max-width:768px){
-  
+@media screen and (max-width:768px) {
+
   .lead__caption {
-     right: 90px;
-   }
+   
   }
+}

@@ -1,17 +1,17 @@
-.place__link{
+.place__link {
   margin: 0;
-  align-self:end;
+  align-self: end;
 }
 
-.place_link:hover{
-  opacity: 0.3;
+.place__link:hover {
+  opacity: 80%;
   transition: .5s;
 }
 
-@media screen and (max-width:768px){
-  
-  .place__link{
-  
+@media screen and (max-width:768px) {
+
+  .place__link {
+
     margin-left: 16px;
   }
 }
