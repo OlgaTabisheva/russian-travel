@@ -2,7 +2,9 @@
   color: white;
   margin: 46px 0 16px 0;
   text-decoration: none;
-  font-family: "Inter",'Helvetica Neue', Arial, sans-serif;
+  font-family: "Inter", 'Helvetica Neue', Arial, sans-serif;
+  line-height: 28px;
+  font-size: 24px;
 }
 
 .header__links:first-child {
@@ -14,11 +16,13 @@
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
 
   .header__links {
-    margin: 0;
+    margin: 30px 0 0 0;
     padding: 0;
+    line-height: 20px;
+    font-size: 18px;
   }
-  
+
 }

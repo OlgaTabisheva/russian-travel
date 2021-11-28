@@ -3,17 +3,18 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  max-width: 510px;
+  width: 510px;
   text-align: center;
   z-index: 1;
-  font-family: "Inter",'Helvetica Neue', Arial, sans-serif;
+  font-family: "Inter", 'Helvetica Neue', Arial, sans-serif;
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
 
   .cover__title {
     font-size: 32px;
     line-height: 35px;
+    width: 240px;
   }
 }

@@ -4,11 +4,3 @@
   justify-content: center;
   min-width: 320px;
 }
-
-
-@media screen and (max-width:768px) {
-
-  .page {
-    min-width: 320px;
-  }
-}
