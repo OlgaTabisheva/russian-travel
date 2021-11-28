@@ -8,6 +8,6 @@
 
   .footer__author {
     padding: 32px 0 24px 16px;
-
+    align-items: flex-start;
   }
 }

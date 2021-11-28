@@ -3,21 +3,21 @@
   font-weight: 400;
   line-height: 26px;
   font-size: 16px;
-  max-width: 690px;
+  width: 690px;
+ 
 }
-
 
 @media screen and (max-width:1023px) {
 
   .intro__subtitle {
-    max-width: 720px;
+    width: 720px;
 
   }
 }
 
 @media screen and (max-width:767px) {
   .intro__subtitle {
-    max-width: 266px;
+    width: 266px;
     margin-bottom: 34px;
 
   }

@@ -3,4 +3,5 @@
   display: grid;
   justify-content: center;
   min-width: 320px;
+  justify-items: center;
 }
